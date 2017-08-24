@@ -1,0 +1,14 @@
+ul {
+  list-style: none;
+}
+
+a {
+  color: #FFF;
+}
+
+img {
+  display: flex;
+  flex-direction: row;
+  width: auto;
+  height: 200px;
+}
