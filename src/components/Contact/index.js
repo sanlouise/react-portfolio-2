@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import '../../styles/index.css';
 
-class Contacts extends Component {
+class Contact extends Component {
   render() {
     return (
       <div className="container text-center">
@@ -11,4 +11,4 @@ class Contacts extends Component {
   }
 }
 
-export default Contacts;
+export default Contact;

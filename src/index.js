@@ -7,7 +7,7 @@ import About from './components/About/index.js';
 import Home from './components/Home/index.js';
 import NavBar from './components/NavBar/index.js';
 import Portfolio from './components/Portfolio/index.js';
-import Contacts from './components/Contacts/index.js';
+import Contact from './components/Contact/index.js';
 import References from './components/References/index.js';
 
 import registerServiceWorker from './registerServiceWorker';
@@ -17,7 +17,7 @@ ReactDOM.render(
     <BaseLayout>
       <NavBar>
         <Switch>
-          <Route path="/contacts" component={Contacts}/>
+          <Route path="/contact" component={Contact}/>
           <Route path="/references" component={References}/>
           <Route path="/about" component={About}/>
           <Route path="/app" component={App}/>
