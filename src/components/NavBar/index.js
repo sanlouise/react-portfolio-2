@@ -11,13 +11,15 @@ class NavBar extends Component {
             <NavLink activeClassName="selected" className="nav-link navbar-brand" to="/app">Splash Page</NavLink>
           </div>
           <ul className="nav">
-            <NavLink activeClassName="selected" className="nav-link" to="/">Home</NavLink>
+            <NavLink activeClassName="selected" className="nav-link" exact to="/">Home</NavLink>
             <NavLink activeClassName="selected" className="nav-link" to="/about">About</NavLink>
             <NavLink activeClassName="selected" className="nav-link" to="/portfolio">Portfolio</NavLink>
+            <NavLink activeClassName="selected" className="nav-link" to="/contacts">Contacts</NavLink>
+            <NavLink activeClassName="selected" className="nav-link" to="/references">References</NavLink>
           </ul>
         </nav>
 
-        <div className="page-content">
+        <div className="content">
           {this.props.children}
         </div>
 
