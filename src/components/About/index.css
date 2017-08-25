@@ -1,3 +1,7 @@
 .about {
   margin-top: 40px;
 }
+
+.about h1 {
+  margin-bottom: 20px;
+}

@@ -12,3 +12,8 @@ img {
   width: auto;
   height: 200px;
 }
+
+.gallery {
+    display: inline-block;
+    margin-top: 20px;
+}

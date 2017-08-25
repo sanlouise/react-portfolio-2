@@ -1,0 +1,42 @@
+.contact-image {
+  height: 70px;
+  width: auto;
+}
+
+.icons {
+  margin-top: 5%;
+}
+
+.contact-page {
+  margin-top: 5%;
+}
+
+.contact-form {
+  margin-top: 5%;
+}
+
+button {
+  color: #000;
+  margin-top: 3%;
+}
+
+input, textarea {
+  color: #000;
+  border: 1px solid #000;
+  border-radius: 3px;
+  margin: 10px;
+  width: 50%;
+  font-family: 'Roboto', sans-serif;
+}
+
+textarea {
+  height: 100px;
+}
+
+button {
+  border: 1px solid #000;
+  border-radius: 3px;
+  background: #ff8008;
+  padding: 10px;
+  font-family: 'Roboto', sans-serif;
+}
